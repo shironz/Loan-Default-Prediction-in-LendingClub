@@ -1,0 +1,4 @@
+# Loan-Default-Prediction-in-LendingClub
+
+
+This project aims to analyze the credit risk of the loans in the peer-to-peer platform Lend-ingClub.  Various machine learning techniques are applied to predict the probability that a requestedloan will be charged off over 2007–2017Q1.  If only considering the accuracy rate, we would pick thelogistic regression classifier as our primary model because it achieves a relative high accuracy ratein both the training and test data, and is cheaper in computation and easier to interpret.  Moreover,it is found that the most important features for predicting credit risk are interest rate, term, annualincome, FICO score, debt-to-income ratio, total credit revolving balance, and loan amount.  How-ever, if we instead focus on the area under the receiver operating characteristic curve (AUCROC),the XGBoost performs the best in both the training and test data.
